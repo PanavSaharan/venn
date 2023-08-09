@@ -1,0 +1,9 @@
+<html>
+<body>
+    <form method="post" action="{% url 'get_product_price' %}">
+        {% csrf_token %}
+        <input type="text" name="product" placeholder="Enter product name">
+        <button type="submit">Get Product Price</button>
+    </form>
+</body>
+</html>

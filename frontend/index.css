@@ -1,0 +1,152 @@
+.featured-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 55px;
+}
+.about,
+.featured1,
+.help,
+.offers {
+  position: absolute;
+  top: 8px;
+  left: 452px;
+  font-weight: 600;
+}
+.featured1,
+.help,
+.offers {
+  top: 10px;
+  left: 325px;
+}
+.featured1,
+.offers {
+  left: 147px;
+}
+.offers {
+  top: 8px;
+  left: 0;
+}
+.get-started1 {
+  position: relative;
+  font-weight: 600;
+}
+.get-started,
+.navbar-header {
+  position: absolute;
+  height: 48.43px;
+}
+.get-started {
+  top: 0;
+  left: 1043px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  width: 151px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-2xs);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: 22.67px;
+  color: var(--color-black);
+}
+.navbar-header {
+  top: 14px;
+  left: 708px;
+  width: 1194px;
+}
+.connekt-white-transparent-bg-1 {
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.featured-headaer-child,
+.featured2 {
+  position: absolute;
+  top: 151px;
+  left: 1px;
+  width: 1920.5px;
+  height: 2px;
+}
+.featured2 {
+  top: 0;
+  left: 807px;
+  display: inline-block;
+  width: 541px;
+  height: 48px;
+}
+.featured-headaer {
+  position: absolute;
+  top: 103px;
+  left: -1px;
+  width: 1920.5px;
+  height: 152px;
+  font-size: 80px;
+}
+.feature-1-child,
+.feature-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  width: 663px;
+}
+.feature-1-child {
+  height: 555px;
+  object-fit: cover;
+}
+.feature-1-item {
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  height: 744px;
+}
+.save-upto-60 {
+  position: absolute;
+  top: 574px;
+  left: 10px;
+  font-weight: 600;
+  display: inline-block;
+  width: 663px;
+}
+.feature-1 {
+  position: absolute;
+  top: 296px;
+  left: 35px;
+  width: 673px;
+  height: 744px;
+  font-size: 70px;
+}
+.featured-inner,
+.featured-item {
+  position: absolute;
+  top: 296px;
+  left: 782px;
+  border-radius: var(--br-lg);
+  height: 276px;
+}
+.featured-item {
+  width: 447px;
+  object-fit: cover;
+}
+.featured-inner {
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 1079px;
+}
+.featured {
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #000c39, #000);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 25.19px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

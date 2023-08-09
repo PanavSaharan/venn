@@ -1,0 +1,199 @@
+.background-icon {
+  object-fit: cover;
+  width: 100.36%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  position: absolute;
+  inset: 0 -.89% 0 .52%;
+  overflow: hidden;
+}
+
+.landing-child {
+  width: 1920px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-button, .featured-button, .help-button {
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: #0000;
+  border: 0;
+  padding: 0;
+  font-size: 25.19px;
+  display: inline-block;
+}
+
+.about-button {
+  font-weight: 600;
+  font-family: var(--font-inter);
+  text-align: left;
+  position: absolute;
+  top: 18px;
+  left: 1140px;
+}
+
+.featured-button, .help-button {
+  top: 20px;
+}
+
+.help-button {
+  font-weight: 600;
+  font-family: var(--font-inter);
+  text-align: left;
+  position: absolute;
+  left: 1013px;
+}
+
+.featured-button {
+  left: 835px;
+}
+
+.featured-button, .get-started5, .offers-button {
+  font-weight: 600;
+  font-family: var(--font-inter);
+  text-align: left;
+  position: absolute;
+}
+
+.offers-button {
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: #0000;
+  border: 0;
+  padding: 0;
+  font-size: 25.19px;
+  display: inline-block;
+  top: 18px;
+  left: 688px;
+}
+
+.get-started5 {
+  color: var(--color-black);
+  font-size: 20.9px;
+  top: 12px;
+  left: 17px;
+}
+
+.get-started4 {
+  cursor: pointer;
+  background-color: var(--color-white);
+  border-radius: var(--br-lg);
+  border: 0;
+  width: 151px;
+  height: 48.43px;
+  padding: 0;
+  position: absolute;
+  top: 11px;
+  left: 1741px;
+}
+
+.connekt-white-transparent-bg-11 {
+  object-fit: cover;
+  cursor: pointer;
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  top: 1px;
+  left: 0;
+}
+
+.navbar-header2 {
+  width: 1892px;
+  height: 62px;
+  position: absolute;
+  top: -1px;
+  left: 10px;
+}
+
+.shop-smart-save-big {
+  object-fit: cover;
+  width: 937px;
+  height: 91px;
+  position: absolute;
+  top: 465px;
+  left: 491px;
+}
+
+.describe-your-desired, .rectangle-textarea {
+  background-color: #0000;
+  position: absolute;
+}
+
+.rectangle-textarea {
+  border: 2px solid var(--color-white);
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  width: 791px;
+  height: 59px;
+  top: 0;
+  left: 0;
+}
+
+.describe-your-desired {
+  font-weight: 500;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  opacity: .2;
+  border: 0;
+  font-size: 23.33px;
+  top: 16px;
+  left: 16px;
+}
+
+.frame-4-button-child {
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  cursor: pointer;
+  width: 148px;
+  height: 59px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.search {
+  font-size: 29.54px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  position: absolute;
+  top: 9px;
+  left: 26px;
+}
+
+.frame-4-button {
+  cursor: pointer;
+  background-color: #0000;
+  border: 0;
+  width: 148px;
+  height: 59px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 805px;
+}
+
+.rectangle-parent {
+  width: 953px;
+  height: 59px;
+  position: absolute;
+  top: 575px;
+  left: 483px;
+}
+
+.landing {
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=l-a-n-d-i-n-g.413a51c9.css.map */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <link rel="stylesheet" href="/index.689f5f05.css">
+    <link rel="stylesheet" href="/l-a-n-d-i-n-g.413a51c9.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  </head>
+  <body>
+    <div class="landing">
+      <img class="background-icon" alt="" src="/background@2x.8fb3a418.png">
+
+      <div class="landing-child" data-scroll-to="rectangle"></div>
+      <div class="navbar-header2">
+        <button class="about-button">about</button>
+        <button class="help-button">help</button>
+        <button class="featured-button" id="featuredButton">featured</button>
+        <button class="offers-button">offers</button>
+        <button class="get-started4">
+          <div class="get-started5">Get Started</div>
+        </button>
+        <img class="connekt-white-transparent-bg-11" alt="" src="/connekt-white-transparent-bg-1@2x.254582b7.png" id="connektWhiteTransparentBg1">
+      </div>
+      <img class="shop-smart-save-big" alt="" src="/shop-smart-save-big@2x.e1395b3a.png">
+
+      <div class="rectangle-parent">
+        <textarea class="rectangle-textarea"> </textarea>
+        <input class="describe-your-desired" type="text">
+
+        <button class="frame-4-button" id="frame4Button">
+          <div class="frame-4-button-child" id="rectangle1"></div>
+          <div class="search">search</div>
+        </button>
+      </div>
+    </div>
+
+    <script>var featuredButton = document.getElementById("featuredButton");
+if (featuredButton) featuredButton.addEventListener("click", function(e) {
+    window.location.href = "/";
+});
+var connektWhiteTransparentBg1 = document.getElementById("connektWhiteTransparentBg1");
+if (connektWhiteTransparentBg1) connektWhiteTransparentBg1.addEventListener("click", function() {
+    var anchor = document.querySelector("[data-scroll-to='rectangle']");
+    if (anchor) anchor.scrollIntoView({
+        block: "start",
+        behavior: "smooth"
+    });
+});
+var rectangle1 = document.getElementById("rectangle1");
+if (rectangle1) rectangle1.addEventListener("click", function(e) {
+    window.location.href = "./search-page.html";
+});
+var frame4Button = document.getElementById("frame4Button");
+if (frame4Button) frame4Button.addEventListener("click", function(e) {
+    window.location.href = "./search-page.html";
+});
+
+</script>
+  <script src="/l-a-n-d-i-n-g.7f628f03.js"></script></body>
+</html>

@@ -1,0 +1,476 @@
+.search-page-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1920px;
+  height: 55px;
+}
+.about1 {
+  position: absolute;
+  top: 8px;
+  left: 452px;
+  font-weight: 600;
+}
+.help1 {
+  top: 10px;
+  left: 325px;
+}
+.featured3,
+.help1,
+.offers1 {
+  position: absolute;
+  font-weight: 600;
+}
+.featured3 {
+  top: 10px;
+  left: 147px;
+  cursor: pointer;
+}
+.offers1 {
+  top: 8px;
+  left: 0;
+}
+.get-started3 {
+  position: relative;
+  font-weight: 600;
+}
+.get-started2,
+.navbar-header1 {
+  position: absolute;
+  height: 48.43px;
+}
+.get-started2 {
+  top: 0;
+  left: 1043px;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  width: 151px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-2xs);
+  box-sizing: border-box;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: 22.67px;
+  color: var(--color-black);
+}
+.navbar-header1 {
+  top: 21px;
+  left: 707px;
+  width: 1194px;
+  font-size: 25.19px;
+}
+.search-page-inner,
+.search-page-item {
+  position: absolute;
+  top: 259px;
+  left: 0;
+  width: 1920.5px;
+  height: 2px;
+}
+.search-page-inner {
+  top: 360px;
+}
+.apple-iphone-13 {
+  position: absolute;
+  top: 128px;
+  left: 651px;
+  font-size: 54.08px;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.rectangle-div {
+  position: absolute;
+  top: 131px;
+  left: 1217px;
+  border-radius: 13.4px;
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 67px;
+  height: 67px;
+}
+.best-deal,
+.deals-found,
+.sort-by {
+  position: absolute;
+  top: 9px;
+  left: 1686px;
+  font-weight: 600;
+}
+.deals-found,
+.sort-by {
+  top: 10px;
+  left: 0;
+}
+.sort-by {
+  top: 9px;
+  left: 1564px;
+}
+.filter-and-results-child {
+  position: absolute;
+  top: 0;
+  left: 1679px;
+  border-radius: 13px;
+  width: 182px;
+  height: 53px;
+}
+.filter-and-results-item {
+  position: absolute;
+  top: 22.26px;
+  left: 1836.26px;
+  width: 16.47px;
+  height: 9.71px;
+}
+.filter-and-results {
+  position: absolute;
+  top: 282px;
+  left: 40px;
+  width: 1861px;
+  height: 53px;
+}
+.search-page-child1,
+.vector-icon {
+  position: absolute;
+  top: 2018.29px;
+  left: 814.59px;
+  width: 13.12px;
+  height: 23.41px;
+}
+.search-page-child1 {
+  left: 1085.29px;
+}
+.frame-child,
+.line-icon {
+  position: absolute;
+  top: 283px;
+  left: 1868px;
+  width: 1px;
+  height: 51px;
+}
+.frame-child {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background: linear-gradient(-45.29deg, #000, rgba(0, 0, 0, 0.08));
+  width: 58px;
+  height: 59px;
+}
+.div {
+  position: absolute;
+  top: 11.19px;
+  left: 21px;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  width: 15px;
+  height: 36.62px;
+}
+.ellipse-div,
+.ellipse-parent {
+  position: absolute;
+  top: 2001px;
+  width: 58px;
+  height: 59px;
+}
+.ellipse-parent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: 847px;
+}
+.ellipse-div {
+  left: 925px;
+  border-radius: 50%;
+  background: linear-gradient(-45.29deg, #fff, #b8b8b8);
+}
+.div1 {
+  position: absolute;
+  top: 2012px;
+  left: 944px;
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  width: 19px;
+  height: 37px;
+}
+.search-page-child2 {
+  position: absolute;
+  top: 2001px;
+  left: 1003px;
+  border-radius: 50%;
+  background: linear-gradient(-45.29deg, #fff, #b8b8b8),
+    linear-gradient(-45.29deg, #fff, rgba(255, 255, 255, 0.08));
+  width: 58px;
+  height: 59px;
+}
+.div2 {
+  position: absolute;
+  top: 2012px;
+  left: 1022px;
+  font-weight: 600;
+  color: var(--color-black);
+  display: inline-block;
+  width: 20px;
+  height: 37px;
+}
+.connekt-white-transparent-bg-2 {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  width: 62px;
+  height: 62px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.frame-inner,
+.frame-item,
+.rectangle-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg) 0 0 var(--br-lg);
+  width: 242px;
+  height: 333px;
+  object-fit: cover;
+}
+.frame-inner,
+.rectangle-icon {
+  left: 640px;
+}
+.rectangle-icon {
+  left: 1287px;
+}
+.frame-child1,
+.frame-child2,
+.frame-child3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-lg);
+  border: 2px solid var(--color-white);
+  box-sizing: border-box;
+  width: 553px;
+  height: 333px;
+}
+.frame-child2,
+.frame-child3 {
+  left: 640px;
+}
+.frame-child3 {
+  left: 1287px;
+}
+.span {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.div3,
+.div4 {
+  position: absolute;
+  top: 274px;
+  left: 158px;
+}
+.div4 {
+  top: 291px;
+  left: 0;
+  font-size: 20.36px;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+.apple-iphone-131 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 292px;
+}
+.span2 {
+  font-weight: 500;
+}
+.th-may {
+  font-weight: 600;
+}
+.delivery-by-20th-container,
+.in-stock {
+  position: absolute;
+  top: 122px;
+  left: 0;
+  font-size: 18.43px;
+}
+.in-stock {
+  top: 149px;
+  font-weight: 500;
+}
+.product-info-child,
+.product-info-item {
+  position: absolute;
+  top: 178px;
+  left: 0.44px;
+  width: 18px;
+  height: 18px;
+}
+.product-info-item {
+  left: 20.44px;
+}
+.product-info-child1,
+.product-info-inner,
+.star-icon {
+  position: absolute;
+  top: 178px;
+  left: 41.44px;
+  width: 18px;
+  height: 18px;
+}
+.product-info-child1,
+.star-icon {
+  left: 61.44px;
+}
+.product-info-child1 {
+  left: 82.44px;
+}
+.product-info,
+.product-info1,
+.product-info2 {
+  position: absolute;
+  top: 8px;
+  left: 250px;
+  width: 293px;
+  height: 322px;
+}
+.product-info1,
+.product-info2 {
+  left: 892px;
+}
+.product-info2 {
+  left: 1540px;
+}
+.delivery-by-20th-container3,
+.in-stock3 {
+  position: absolute;
+  top: 122px;
+  left: 0;
+}
+.in-stock3 {
+  top: 149px;
+  font-weight: 500;
+}
+.apple-iphone-137,
+.apple-iphone-138 {
+  position: relative;
+  display: inline-block;
+  width: 292px;
+}
+.apple-iphone-138 {
+  margin-top: -72px;
+}
+.frame-icon,
+.frame1 {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.frame1 {
+  top: 0;
+  width: 292px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--font-size-11xl);
+}
+.frame-icon {
+  top: 178px;
+  width: 100px;
+  height: 18px;
+}
+.div12,
+.div13 {
+  position: absolute;
+  top: 0;
+  left: 158px;
+}
+.div13 {
+  top: 17px;
+  left: 0;
+  font-size: 20.36px;
+  text-decoration: line-through;
+  font-weight: 500;
+}
+.frame2,
+.product-info3 {
+  position: absolute;
+  width: 293px;
+}
+.frame2 {
+  top: 274px;
+  left: 0;
+  height: 48px;
+  overflow: hidden;
+  font-size: var(--font-size-21xl);
+}
+.product-info3 {
+  top: 8px;
+  left: 250px;
+  height: 322px;
+  font-size: 18.43px;
+}
+.frame {
+  position: relative;
+  width: 1840px;
+  height: 333px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-child6 {
+  position: absolute;
+  top: 0;
+  left: 3px;
+  border-radius: var(--br-lg) 0 0 var(--br-lg);
+  width: 242px;
+  height: 333px;
+  object-fit: cover;
+}
+.product-info4,
+.product-info5 {
+  position: absolute;
+  top: 8px;
+  left: 1536px;
+  width: 293px;
+  height: 322px;
+}
+.product-info5 {
+  left: 891px;
+}
+.product-section,
+.product-section1 {
+  position: absolute;
+  top: 397px;
+  left: 40px;
+  width: 1840px;
+  height: 723px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-38xl);
+  font-size: var(--font-size-21xl);
+}
+.product-section1 {
+  top: 1173px;
+}
+.search-page {
+  position: relative;
+  background: radial-gradient(50% 50%at 50% 50%, #000, #000c39);
+  width: 100%;
+  height: 2113px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  --font-inter: Inter;
+  --font-size-3xl-7: 22.7px;
+  --font-size-6xl-2: 25.2px;
+  --font-size-xl: 20px;
+  --font-size-21xl: 40px;
+  --font-size-xl-4: 20.4px;
+  --font-size-11xl: 30px;
+  --font-size-lg-4: 18.4px;
+  --color-white: #fff;
+  --color-black: #000;
+  --gap-38xl: 57px;
+  --padding-3xs: 10px;
+  --padding-2xs: 11px;
+  --br-lg: 18px;
+}
+
+/*# sourceMappingURL=index.689f5f05.css.map */

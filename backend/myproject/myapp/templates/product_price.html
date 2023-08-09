@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Prices</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            margin-top: 30px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        h3 {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .product {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .website {
+            margin-top: 10px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Prices</h1>
+    
+    <div class="product">
+        <h2>Product: {{ product_name }}</h2>
+        
+        <div class="website">
+            <h3>Amazon</h3>
+            {% if product_price_amazon.error %}
+                <p>{{ product_price_amazon.error }}</p>
+            {% else %}
+                <p>{{ product_price_amazon.product_name }}</p>
+                <p>{{ product_price_amazon.price }}</p>
+            {% endif %}
+        </div>
+        
+        <div class="website">
+            <h3>Flipkart</h3>
+            {% if product_price_flipkart.error %}
+                <p>{{ product_price_flipkart.error }}</p>
+            {% else %}
+                <p>{{ product_price_flipkart.product_name }}</p>
+                <p>{{ product_price_flipkart.price }}</p>
+            {% endif %}
+        </div>
+        
+        <div class="website">
+            <h3>Croma</h3>
+            {% if product_price_croma.error %}
+                <p>{{ product_price_croma.error }}</p>
+            {% else %}
+                <p>{{ product_price_croma.product_name }}</p>
+                <p>{{ product_price_croma.price }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
